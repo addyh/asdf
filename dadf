@@ -1,0 +1,91 @@
+MainActivity: MainActivity()
+MainActivity: onCreate
+MainActivity:  - onCreate: loading ForecastFragment
+ForecastFragment: ForecastFraagment()
+ForecastFragment: onCreate
+ForecastFragment: onCreateView
+ForecastAdapter: ForecastAdapter()
+ForecastFragment: onActivityCreated
+ForecastFragment: onCreateLoader: id=0
+ForecastFragment:  - onCreateLoader: LOATION DOES NOT EXIST
+ForecastFragment: updateWeather
+FetchWeatherTask: FetchWeatherTask()
+FetchWeatherTask: doInBackground
+FetchWeatherTask: Built URI: http://api.openweathermap.org/data/2.5/forecast/daily?q=33809&mode=json&units=metric&cnt=14&APPID=0db3a409f4cdb6a3a1379355f0e708d4
+ForecastFragment: onStart
+MainActivity: onStart
+MainActivity: onResume
+ForecastFragment: onResume
+ForecastFragment: onLoadFinished
+MainActivity: Options menu created
+ForecastFragment: Options menu created
+FetchWeatherTask: getWeatherDataFromJson
+FetchWeatherTask: addLocation
+FetchWeatherTask:  - addLocation: inserting new location
+FetchWeatherTask: FetchWeatherTask Complete. 14 Inserted
+FetchWeatherTask: Forecast JSON String:{"city":{"id":4161438,"name":"Lakeland","coord":{"lon":-81.9735,"lat":28.1539},"country":"US","population":97422},"cod":"200","message":10.4596952,"cnt":14,"list":[{"dt":1541955600,"temp":{"day":22.8,"min":20.96,"max":22.8,"night":20.96,"eve":22.8,"morn":22.8},"pressure":1030.64,"humidity":63,"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03n"}],"speed":5.31,"deg":71,"clouds":36},{"dt":1542042000,"temp":{"day":29.65,"min":20.69,"max":29.65,"night":22.57,"eve":23.35,"morn":20.69},"pressure":1027.05,"humidity":65,"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"10d"}],"speed":4.84,"deg":132,"clouds":20,"rain":6.45},{"dt":1542128400,"temp":{"day":28.23,"min":18.85,"max":28.23,"night":21.86,"eve":23.79,"morn":18.85},"pressure":1025.71,"humidity":74,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":2.93,"deg":162,"clouds":24,"rain":2.78},{"dt":1542214800,"temp":{"day":20.58,"min":16.02,"max":22.35,"night":20.96,"eve":22.35,"morn":16.02},"pressure":1033.69,"humidity":0,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":6.76,"deg":19,"clouds":73},{"dt":1542301200,"temp":{"day":28.25,"min":19.05,"max":28.25,"night":21.21,"eve":25.56,"morn":19.05},"pressure":1030.03,"humidity":0,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":4.98,"deg":68,"clouds":36},{"dt":1542387600,"temp":{"day":28.12,"min":20.04,"max":28.12,"night":22.33,"eve":24.67,"morn":20.04},"pressure":1025.83,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":5.15,"deg":101,"clouds":95,"rain":2.9},{"dt":1542474000,"temp":{"day":27.67,"min":15.29,"max":27.67,"night":15.29,"eve":21.58,"morn":22.46},"pressure":1022.99,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":7.4,"deg":259,"clouds":54,"rain":1.15},{"dt":1542560400,"temp":{"day":15.68,"min":8.4,"max":15.68,"night":12.67,"eve":15.12,"morn":8.4},"pressure":1033.43,"humidity":0,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":8.33,"deg":7,"clouds":6},{"dt":1542646800,"temp":{"day":24.37,"min":11.29,"max":24.37,"night":15.43,"eve":20.96,"morn":11.29},"pressure":1035.5,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":6.23,"deg":31,"clouds":4},{"dt":1542733200,"temp":{"day":26.5,"min":12.95,"max":26.5,"night":16.16,"eve":22.87,"morn":12.95},"pressure":1035.91,"humidity":0,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":5.88,"deg":54,"clouds":2},{"dt":1542819600,"temp":{"day":28.1,"min":13.68,"max":28.1,"night":17.4,"eve":23.08,"morn":13.68},"pressure":1033.7,"humidity":0,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":4.22,"deg":82,"clouds":0},{"dt":1542906000,"temp":{"day":29.11,"min":14.85,"max":29.11,"night":17.74,"eve":24.64,"morn":14.85},"pressure":1028.04,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":3.29,"deg":155,"clouds":44},{"dt":1542992400,"temp":{"day":28.99,"min":17.6,"max":28.99,"night":22.63,"eve":24.99,"morn":17.6},"pressure":1023.03,"humidity":0,"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"10d"}],"speed":7.2,"deg":180,"clouds":22,"rain":3.39},{"dt":1543078800,"temp":{"day":29.62,"min":22.59,"max":29.62,"night":22.59,"eve":26.1,"morn":22.91},"pressure":1023.63,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":7.47,"deg":228,"clouds":31,"rain":2.01}]}
+ForecastFragment: onLoadFinished
+ForecastAdapter: Sun, Nov 11 - Clouds - 73/70
+ForecastAdapter: Mon, Nov 12 - Rain - 85/69
+ForecastAdapter: Tue, Nov 13 - Rain - 83/66
+ForecastAdapter: Wed, Nov 14 - Clear - 72/61
+ForecastAdapter: Thu, Nov 15 - Clear - 83/66
+ForecastAdapter: Fri, Nov 16 - Rain - 83/68
+ForecastAdapter: Sat, Nov 17 - Rain - 82/60
+ForecastAdapter: Sun, Nov 18 - Clear - 60/47
+ForecastAdapter: Mon, Nov 19 - Rain - 76/52
+MainActivity: Options item selected
+ForecastFragment: onPause
+MainActivity: onPause
+ForecastFragment: onStop
+MainActivity: onStop
+ForecastFragment: onStart
+ForecastFragment: onLoadFinished
+MainActivity: onStart
+MainActivity: onResume
+MainActivity:  - onResume: location is different
+MainActivity:  - onResume: updating location
+ForecastFragment: onLocationChanged
+ForecastFragment: updateWeather
+FetchWeatherTask: FetchWeatherTask()
+FetchWeatherTask: doInBackground
+FetchWeatherTask: Built URI: http://api.openweathermap.org/data/2.5/forecast/daily?q=33810&mode=json&units=metric&cnt=14&APPID=0db3a409f4cdb6a3a1379355f0e708d4
+ForecastFragment: onLoaderReset
+ForecastFragment: onCreateLoader: id=0
+ForecastFragment:  - onCreateLoader: LOATION DOES NOT EXIST
+ForecastFragment: updateWeather
+FetchWeatherTask: FetchWeatherTask()
+ForecastFragment: onResume
+ForecastFragment: onLoadFinished
+FetchWeatherTask: getWeatherDataFromJson
+FetchWeatherTask: addLocation
+FetchWeatherTask:  - addLocation: inserting new location
+FetchWeatherTask: FetchWeatherTask Complete. 14 Inserted
+FetchWeatherTask: Forecast JSON String:{"city":{"id":3122313,"name":"Lugo","coord":{"lon":-6.8319,"lat":43.0938},"country":"ES","population":4999},"cod":"200","message":35.7434193,"cnt":14,"list":[{"dt":1541937600,"temp":{"day":11.43,"min":8.53,"max":11.43,"night":8.53,"eve":9.53,"morn":10.95},"pressure":941.83,"humidity":0,"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"10d"}],"speed":1.25,"deg":229,"clouds":95,"rain":5.31},{"dt":1542024000,"temp":{"day":8.91,"min":3.45,"max":9.86,"night":3.45,"eve":7.75,"morn":3.54},"pressure":934.94,"humidity":86,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":1.12,"deg":210,"clouds":0},{"dt":1542110400,"temp":{"day":10.17,"min":0.14,"max":12.1,"night":1.91,"eve":6.98,"morn":0.14},"pressure":943.29,"humidity":80,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":1.11,"deg":145,"clouds":0},{"dt":1542196800,"temp":{"day":13.92,"min":0.64,"max":16.11,"night":3.03,"eve":9.13,"morn":0.64},"pressure":938.7,"humidity":76,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":1.13,"deg":169,"clouds":0},{"dt":1542283200,"temp":{"day":12.62,"min":2.28,"max":12.62,"night":3.41,"eve":8.65,"morn":2.28},"pressure":950.42,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":1.11,"deg":141,"clouds":2},{"dt":1542369600,"temp":{"day":14.22,"min":3.33,"max":14.22,"night":4.02,"eve":9.7,"morn":3.33},"pressure":954.35,"humidity":0,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":1.11,"deg":135,"clouds":11},{"dt":1542456000,"temp":{"day":13.81,"min":2.76,"max":13.81,"night":5.21,"eve":9.42,"morn":2.76},"pressure":950.64,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":1.07,"deg":135,"clouds":17},{"dt":1542542400,"temp":{"day":14.23,"min":5.14,"max":14.23,"night":5.65,"eve":9.85,"morn":5.14},"pressure":943.83,"humidity":0,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":1.17,"deg":140,"clouds":7},{"dt":1542628800,"temp":{"day":13.39,"min":7.07,"max":13.39,"night":7.86,"eve":10.27,"morn":7.07},"pressure":940.36,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":1.09,"deg":134,"clouds":14,"rain":1.32},{"dt":1542715200,"temp":{"day":10.33,"min":6.37,"max":10.33,"night":6.37,"eve":8.85,"morn":7.8},"pressure":943.67,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":1.31,"deg":20,"clouds":64,"rain":1.42},{"dt":1542801600,"temp":{"day":6.63,"min":3.41,"max":6.63,"night":3.78,"eve":4.7,"morn":3.41},"pressure":949.28,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":2.28,"deg":46,"clouds":40,"rain":1.01},{"dt":1542888000,"temp":{"day":6.3,"min":0.72,"max":6.3,"night":0.72,"eve":3.53,"morn":3.57},"pressure":947.81,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":2.61,"deg":44,"clouds":27,"rain":1.4},{"dt":1542974400,"temp":{"day":5.2,"min":-0.51,"max":5.2,"night":1.91,"eve":4.07,"morn":-0.51},"pressure":943.98,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":1.13,"deg":235,"clouds":36,"rain":1.87},{"dt":1543060800,"temp":{"day":7.06,"min":1.65,"max":7.06,"night":6.55,"eve":6.12,"morn":1.65},"pressure":949.59,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":1.57,"deg":200,"clouds":24,"rain":0.54}]}
+FetchWeatherTask: doInBackground
+FetchWeatherTask: Built URI: http://api.openweathermap.org/data/2.5/forecast/daily?q=33810&mode=json&units=metric&cnt=14&APPID=0db3a409f4cdb6a3a1379355f0e708d4
+ForecastFragment: onLoadFinished
+ForecastAdapter: Sun, Nov 11 - Rain - 53/47
+ForecastAdapter: Mon, Nov 12 - Rain - 50/38
+ForecastAdapter: Tue, Nov 13 - Clear - 54/32
+ForecastAdapter: Wed, Nov 14 - Clear - 61/33
+ForecastAdapter: Thu, Nov 15 - Rain - 55/36
+FetchWeatherTask: getWeatherDataFromJson
+ForecastAdapter: Fri, Nov 16 - Clear - 58/38
+ForecastAdapter: Sat, Nov 17 - Rain - 57/37
+ForecastAdapter: Sun, Nov 18 - Clear - 58/41
+ForecastAdapter: Mon, Nov 19 - Rain - 56/45
+FetchWeatherTask: addLocation
+FetchWeatherTask:  - addLocation: location already exists
+FetchWeatherTask: FetchWeatherTask Complete. 14 Inserted
+FetchWeatherTask: Forecast JSON String:{"city":{"id":3122313,"name":"Lugo","coord":{"lon":-6.8319,"lat":43.0938},"country":"ES","population":4999},"cod":"200","message":35.7434193,"cnt":14,"list":[{"dt":1541937600,"temp":{"day":11.43,"min":8.53,"max":11.43,"night":8.53,"eve":9.53,"morn":10.95},"pressure":941.83,"humidity":0,"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"10d"}],"speed":1.25,"deg":229,"clouds":95,"rain":5.31},{"dt":1542024000,"temp":{"day":8.91,"min":3.45,"max":9.86,"night":3.45,"eve":7.75,"morn":3.54},"pressure":934.94,"humidity":86,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":1.12,"deg":210,"clouds":0},{"dt":1542110400,"temp":{"day":10.17,"min":0.14,"max":12.1,"night":1.91,"eve":6.98,"morn":0.14},"pressure":943.29,"humidity":80,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":1.11,"deg":145,"clouds":0},{"dt":1542196800,"temp":{"day":13.92,"min":0.64,"max":16.11,"night":3.03,"eve":9.13,"morn":0.64},"pressure":938.7,"humidity":76,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":1.13,"deg":169,"clouds":0},{"dt":1542283200,"temp":{"day":12.62,"min":2.28,"max":12.62,"night":3.41,"eve":8.65,"morn":2.28},"pressure":950.42,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":1.11,"deg":141,"clouds":2},{"dt":1542369600,"temp":{"day":14.22,"min":3.33,"max":14.22,"night":4.02,"eve":9.7,"morn":3.33},"pressure":954.35,"humidity":0,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":1.11,"deg":135,"clouds":11},{"dt":1542456000,"temp":{"day":13.81,"min":2.76,"max":13.81,"night":5.21,"eve":9.42,"morn":2.76},"pressure":950.64,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":1.07,"deg":135,"clouds":17},{"dt":1542542400,"temp":{"day":14.23,"min":5.14,"max":14.23,"night":5.65,"eve":9.85,"morn":5.14},"pressure":943.83,"humidity":0,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":1.17,"deg":140,"clouds":7},{"dt":1542628800,"temp":{"day":13.39,"min":7.07,"max":13.39,"night":7.86,"eve":10.27,"morn":7.07},"pressure":940.36,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":1.09,"deg":134,"clouds":14,"rain":1.32},{"dt":1542715200,"temp":{"day":10.33,"min":6.37,"max":10.33,"night":6.37,"eve":8.85,"morn":7.8},"pressure":943.67,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":1.31,"deg":20,"clouds":64,"rain":1.42},{"dt":1542801600,"temp":{"day":6.63,"min":3.41,"max":6.63,"night":3.78,"eve":4.7,"morn":3.41},"pressure":949.28,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":2.28,"deg":46,"clouds":40,"rain":1.01},{"dt":1542888000,"temp":{"day":6.3,"min":0.72,"max":6.3,"night":0.72,"eve":3.53,"morn":3.57},"pressure":947.81,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":2.61,"deg":44,"clouds":27,"rain":1.4},{"dt":1542974400,"temp":{"day":5.2,"min":-0.51,"max":5.2,"night":1.91,"eve":4.07,"morn":-0.51},"pressure":943.98,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":1.13,"deg":235,"clouds":36,"rain":1.87},{"dt":1543060800,"temp":{"day":7.06,"min":1.65,"max":7.06,"night":6.55,"eve":6.12,"morn":1.65},"pressure":949.59,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":1.57,"deg":200,"clouds":24,"rain":0.54}]}
+ForecastFragment: onLoadFinished
+ForecastAdapter: Sun, Nov 11 - Rain - 53/47
+ForecastAdapter: Mon, Nov 12 - Rain - 50/38
+ForecastAdapter: Tue, Nov 13 - Clear - 54/32
+ForecastAdapter: Wed, Nov 14 - Clear - 61/33
+ForecastAdapter: Thu, Nov 15 - Rain - 55/36
+ForecastAdapter: Fri, Nov 16 - Clear - 58/38
+ForecastAdapter: Sat, Nov 17 - Rain - 57/37
+ForecastAdapter: Sun, Nov 18 - Clear - 58/41
+ForecastAdapter: Mon, Nov 19 - Rain - 56/45
